@@ -1,3 +1,4 @@
+#pragma once
 #include<iostream>
 #include<vector>
 #include<cmath>
@@ -10,12 +11,15 @@
 #include"Menu.h"
 #include"User.h"
 #include"Validation.h"
-//#include"Feedback.h"
 
-using namespace std;
 
-int main() {
-	menus();
-}
 
+void menus();
+void PrintOutMenu();
+void MainMenu();
+void OfferMenu();
+void Contract();
+void MyProfile();
+void Filtering();
+void Coaches(std::vector<Coach>& personal);
 

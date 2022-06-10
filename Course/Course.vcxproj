@@ -140,7 +140,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Coach.cpp" />
+    <ClCompile Include="Menu.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Offers.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="Validation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Coach.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Offers.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="Validation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

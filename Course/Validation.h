@@ -1,6 +1,8 @@
+#pragma once
 #include<iostream>
 #include<vector>
 #include<cmath>
+#include<regex>
 #include<fstream>
 #include<limits>
 #include<string>
@@ -9,13 +11,9 @@
 #include"Coach.h"
 #include"Menu.h"
 #include"User.h"
-#include"Validation.h"
-//#include"Feedback.h"
 
-using namespace std;
 
-int main() {
-	menus();
-}
+int monthsQ(int& months);
 
+bool isvalid_data(const std::string& data, const std::string& str_re);
 
