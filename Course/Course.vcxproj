@@ -141,6 +141,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Coach.cpp" />
+    <ClCompile Include="Feedback.cpp" />
     <ClCompile Include="Menu.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
@@ -151,6 +152,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Coach.h" />
+    <ClInclude Include="Feedback.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Offers.h" />
     <ClInclude Include="User.h" />

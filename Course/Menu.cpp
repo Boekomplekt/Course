@@ -11,12 +11,15 @@ void menus() {
 	int months = 0;
 	unsigned int id = 0;
 
+	vector<Feedback> feedbacks;
 	vector<User> AddingClient;
 	vector<Coach> personaladd;
 	vector<Offers> AddingOffers;
-	AddingClient = ReadIn(AddingClient);
-	personaladd = ReadInC(personaladd);
-	AddingOffers = ReadInO(AddingOffers);
+	ReadIn(AddingClient);
+	ReadInC(personaladd);
+	ReadInO(AddingOffers);
+	ReadInF(feedbacks);
+
 
 	char menuChoice = 'Z';
 
